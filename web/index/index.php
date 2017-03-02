@@ -71,6 +71,10 @@
 	        <button type="button" class="m_navbar btn btn-default" aria-label="Left Align">
 			  <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
 			</button>
+
+			<div class="m_navbar_container">
+				<a class="title dropdown-toggle" data-toggle="dropdown" href="#">flight info</a>
+			</div>
 	    </div>
 
 	    <div class="navbar menu-container">
