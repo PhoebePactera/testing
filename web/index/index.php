@@ -137,42 +137,47 @@
 			            	<span class="glyphicon glyphicon-plane" aria-hidden="true"></span>Departures
 			            </span>
 			        </div>
-			        <div>
-						<div class="flight_info_select form-group">
-						  <select class="form-control" id="destination">
-						    <option>All</option>
-						    <option>Hong Kong</option>
-						    <option>New York</option>
-						    <option>Tokyo</option>
-						  </select>
+			        <div class="flight_info_form">
+			        	<div>
+							<div class="flight_info_input form-group">
+							  <select class="form-control" id="destination">
+							    <option>All</option>
+							    <option>Hong Kong</option>
+							    <option>New York</option>
+							    <option>Tokyo</option>
+							  </select>
+							</div>
+							<div class="flight_info_input form-group">
+							  <select class="form-control" id="airline">
+							    <option>Airline</option>
+							    <option>Cathay Pacific</option>
+							    <option>Hong Kong Airline</option>
+							    <option>Peach Airline</option>
+							  </select>
+							</div>
 						</div>
-						<div class="flight_info_select form-group">
-						  <select class="form-control" id="airline">
-						    <option>Airline</option>
-						    <option>Cathay Pacific</option>
-						    <option>Hong Kong Airline</option>
-						    <option>Peach Airline</option>
-						  </select>
+						<div class="float_left">
+							<div class="flight_info_input form-group">
+							  <select class="form-control" id="date">
+							    <option>2 Mar 2017</option>
+							    <option>3 Mar 2017</option>
+							    <option>4 Mar 2017</option>
+							    <option>5 Mar 2017</option>
+							  </select>
+							</div>
+							<div class="float_left">
+								<div class="flight_info_input form-group">
+								  <input type="email" class="form-control" id="flight_num" aria-describedby="flight_num" placeholder="Flight Number">
+								</div>
+								<div class="flight_info_input glyphicon glyphicon-arrow-right" aria-hidden="true"></div>
+							</div>
 						</div>
-						<div class="flight_info_select form-group">
-						  <select class="form-control" id="date">
-						    <option>2 Mar 2017</option>
-						    <option>3 Mar 2017/option>
-						    <option>4 Mar 2017</option>
-						    <option>5 Mar 2017</option>
-						  </select>
-						</div>
-						<div class="flight_info_select form-group">
-						  <select class="form-control" id="flight_num">
-						    <option>CX 300</option>
-						    <option>CX 500</option>
-						    <option>CX 700</option>
-						  </select>
-						</div>
-						<div class="flight_info_select glyphicon glyphicon-arrow-right" aria-hidden="true"></div>
-					</option>
+					</div>
 		        </div>
-	         <img src="img/hk.jpg">
+	         	<div class="place_info">
+	         		<img src="img/hk.jpg">
+	         		<div class="place_detail">Hong Kong</div>
+	         	</div>
 		    </div>
 	        <div class="col-xs-12 col-sm-4"">
 	          <h3 class="title title2">passenger guide</h3>

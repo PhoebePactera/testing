@@ -1,6 +1,17 @@
 html, body {
   font-size: 12px;
 }
+
+
+
+.float_left {
+  float: left;
+}
+
+
+
+
+
 .page_container {
   position: relative;
   width: 100%;
@@ -135,15 +146,38 @@ html, body {
 }
 .flight_info_container .flight_info_bounding {
   cursor: pointer;
+  margin-bottom: 6px;
 }
-.flight_info_container .flight_info_select {
-  width: 200px;
+.flight_info_container .flight_info_form {
+  width: 100%;
   float: left;
+}
+.flight_info_container .flight_info_input {
+  float: left;
+}
+.flight_info_container .flight_info_input select {
+  width: 200px;
   margin-right: 10px;
 }
-.flight_info_container .flight_info_select.glyphicon {
+.flight_info_container .flight_info_input input {
+  width: 190px;
+  margin-right: 10px;
+  height: 28px;
+}
+.flight_info_container .flight_info_input.glyphicon {
   width: 10px;
   font-size: 1.8em
+}
+.flight_info_container .place_info {
+  width: 100%;
+  float: left;
+  position: relative;
+}
+.flight_info_container .place_detail {
+  position: absolute;
+  top: 0;
+  margin: 4px;
+  font-size: 1.2em;
 }
 
 
